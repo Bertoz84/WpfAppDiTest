@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppDiTest.UI", "WpfAppDiTest.UI\WpfAppDiTest.UI.csproj", "{49C81D17-E605-4129-A933-8941A6ECAFC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppDiTest.ViewModels", "WpfAppDiTest.ViewModels\WpfAppDiTest.ViewModels.csproj", "{9B67F323-13EF-441E-BAC2-02A2F12226D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{49C81D17-E605-4129-A933-8941A6ECAFC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49C81D17-E605-4129-A933-8941A6ECAFC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49C81D17-E605-4129-A933-8941A6ECAFC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B67F323-13EF-441E-BAC2-02A2F12226D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B67F323-13EF-441E-BAC2-02A2F12226D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B67F323-13EF-441E-BAC2-02A2F12226D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B67F323-13EF-441E-BAC2-02A2F12226D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

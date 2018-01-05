@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfAppDiTest.ViewModels;
 
 namespace WpfAppDiTest
 {
@@ -23,6 +24,8 @@ namespace WpfAppDiTest
         public MainWindow()
         {
             InitializeComponent();
+
+            this.DataContext = new TitleVM("Questo è il mio titolo");
         }
     }
 }

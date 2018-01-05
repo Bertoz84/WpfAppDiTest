@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WpfAppDiTest.ViewModels\WpfAppDiTest.ViewModels.csproj">
+      <Project>{9b67f323-13ef-441e-bac2-02a2f12226d2}</Project>
+      <Name>WpfAppDiTest.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
